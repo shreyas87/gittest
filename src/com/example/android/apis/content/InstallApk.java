@@ -151,6 +151,8 @@ public class InstallApk extends Activity {
             startActivityForResult(intent, REQUEST_UNINSTALL);
         }
     };
+    
+    //this is a conflict 2
 
     private File prepareApk(String assetName) {
         // Copy the given asset out into a file so that it can be installed.
