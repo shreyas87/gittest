@@ -125,7 +125,7 @@ public class InstallApk extends Activity {
         }
     };
 
-    private String dummyMethod() {
+    public String dummyMethod() {
     	return "abcd";
     }
     
