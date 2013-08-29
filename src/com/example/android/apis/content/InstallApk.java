@@ -151,6 +151,8 @@ public class InstallApk extends Activity {
             startActivityForResult(intent, REQUEST_UNINSTALL);
         }
     };
+    
+    //this is a conflict 2
 
     //this is also a conflict 2
     
