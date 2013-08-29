@@ -129,6 +129,10 @@ public class InstallApk extends Activity {
     	return "abcd";
     }
     
+    private int dummy2(){
+    	return 5;
+    }
+    
     private OnClickListener mUninstallListener = new OnClickListener() {
         public void onClick(View v) {
             Intent intent = new Intent(Intent.ACTION_UNINSTALL_PACKAGE);
