@@ -152,6 +152,8 @@ public class InstallApk extends Activity {
         }
     };
 
+    //this is also a conflict 2
+    
     private File prepareApk(String assetName) {
         // Copy the given asset out into a file so that it can be installed.
         // Returns the path to the file.
